@@ -77,10 +77,8 @@ Adicione codigo abaixo dentro do Schema com credenciais Postgres e Redis alterad
             "port": 5678
           }
         ],
-        "env":"DB_TYPE=postgresdb \nDB_POSTGRESDB_DATABASE=n8n_db \nDB_POSTGRESDB_HOST=postgres \nDB_POSTGRESDB_PORT=5432 \nDB_POSTGRESDB_USER=postgres \nDB_POSTGRESDB_PASSWORD=356c84c2878e8a42f64b \nN8N_ENCRYPTION_KEY=r3djGX2vPoeL9zKL \nN8N_HOST=https://$(PRIMARY_DOMAIN) \nN8N_EDITOR_BASE_URL=https://$(PRIMARY_DOMAIN) \nN8N_PROTOCOL=https \nNODE_ENV=production \nWEBHOOK_URL=https://n8nwebhook.seudominio \nEXECUTIONS_MODE=queue \nQUEUE_BULL_REDIS_HOST=testes_n8n-redis \nQUEUE_BULL_REDIS_PORT=6379 \nQUEUE_BULL_REDIS_DB=2 \nQUEUE_BULL_REDIS_USER=default \nQUEUE_BULL_REDIS_PASSWORD=senharedis \nNODE_FUNCTION_ALLOW_EXTERNAL=moment,lodash,moment-with-locales \nEXECUTIONS_DATA_PRUNE=true \nEXECUTIONS_DATA_MAX_AGE=336 \nGENERIC_TIMEZONE=America/Sao_Paulo \nTZ=America/Sao_Paulo \n",
-        "mounts": [
-          }
-        ]
+        "env": "DB_TYPE=postgresdb \nDB_POSTGRESDB_DATABASE=n8n_db \nDB_POSTGRESDB_HOST=postgres \nDB_POSTGRESDB_PORT=5432 \nDB_POSTGRESDB_USER=postgres \nDB_POSTGRESDB_PASSWORD=356c84c2878e8a42f64b \nN8N_ENCRYPTION_KEY=r3djGX2vPoeL9zKL \nN8N_HOST=https://$(PRIMARY_DOMAIN) \nN8N_EDITOR_BASE_URL=https://$(PRIMARY_DOMAIN) \nN8N_PROTOCOL=https \nNODE_ENV=production \nWEBHOOK_URL=https://n8nwebhook.seudominio \nEXECUTIONS_MODE=queue \nQUEUE_BULL_REDIS_HOST=testes_n8n-redis \nQUEUE_BULL_REDIS_PORT=6379 \nQUEUE_BULL_REDIS_DB=2 \nQUEUE_BULL_REDIS_USER=default \nQUEUE_BULL_REDIS_PASSWORD=senharedis \nNODE_FUNCTION_ALLOW_EXTERNAL=moment,lodash,moment-with-locales \nEXECUTIONS_DATA_PRUNE=true \nEXECUTIONS_DATA_MAX_AGE=336 \nGENERIC_TIMEZONE=America/Sao_Paulo \nTZ=America/Sao_Paulo \n",
+        "mounts": []
       }
     }
   ]
